@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FBSuite">
+  <test thread-count="5" name="LoginonChromeTest">
+    <classes>
+      <class name="TestClasses.FBLoginTestClass"/>
+    </classes>
+  </test> <!-- LoginonChromeTest -->
+</suite> <!-- FBSuite -->
